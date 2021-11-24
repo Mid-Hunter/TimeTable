@@ -1,6 +1,6 @@
 [Variables]
 size=2
-n=5
+n=6
 
 ; COLORS
 black		=10,10,10
@@ -11,6 +11,7 @@ grey2		=22,22,22
 tapecolor	=100,100,100,100
 noteline	=76,172,249
 notemargin	=244,88,89
+noteink		=0,20,200
 
 red			=255,50,50
 green		=0,220,80
@@ -24,15 +25,15 @@ gradGrey1 = 180 | 15,15,15,240 ; 0 | 15,15,15 ; 0.2 | 15,15,15 ; 0.8 | 15,15,15,
 gradGrey2 = 180 | 22,22,22,220 ; 0 | 22,22,22 ; 0.2 | 22,22,22 ; 0.8 | 22,22,22,240 ; 1
 
 ; TIME TABLE
-A		="A Graph Theory"
-B		="B Comp Architecture"
-C		="C DBMS"
-D		="D Operating System"
-E		="E Professional Ethics"
-F		="F Constitution India"
+A		="A Automata Theory"
+B		="B Comp Networks"
+C		="C System Software"
+D		="D Microprocessors"
+E		="E Software Sys Mgmt"
+F		="F Disaster Mgmt"
 brek	="Break Time"
-S		="Digital Lab"
-T		="OS Lab"
+S		="Microprocessor Lab"
+T		="DBMS Lab"
 
 AColor		=#red#
 BColor		=#green#
@@ -51,168 +52,222 @@ TColor		=#orange#
 ;---------------------;
 
 ; SUBJECTS
-Monday1		=#A#
+Monday1		=#E#
 Monday2		=#B#
-Monday3		=#D#
-Monday4		=#E#
+Monday3		=#A#
+Monday4		=#D#
 Monday5		=#C#
-Monday6		=" "
+Monday6		=#D#
+Monday7		=" "
+Monday8		=" "
+Monday9		=" "
 
 ; TIME
-Mondayt1	=830
-Mondayt2	=930
-Mondayt3	=1030
-Mondayt4	=1130
-Mondayt5	=1230
-Mondayt6	=1325
+Mondayt1	=930
+Mondayt2	=1020
+Mondayt3	=1120
+Mondayt4	=1240
+Mondayt5	=130
+Mondayt6	=230
+Mondayt7	=" "
+Mondayt8	=" "
+Mondayt9	=" "
 
 ; COLOR
-MondayColor1	=#AColor#
+MondayColor1	=#EColor#
 MondayColor2	=#BColor#
-MondayColor3	=#DColor#
-MondayColor4	=#EColor#
+MondayColor3	=#AColor#
+MondayColor4	=#DColor#
 MondayColor5	=#CColor#
-MondayColor6	=#CColor#
+MondayColor6	=#DColor#
+MondayColor7	=#CColor#
+MondayColor8	=#CColor#
+MondayColor9	=#CColor#
 
 
 ;    T U E S D A Y    ;
 ;---------------------;
 
 ; SUBJECTS
-Tuesday1	=#A#
-Tuesday2	=#F#
-Tuesday3	=#T#
-Tuesday4	=#T#
-Tuesday5	=#T#
-Tuesday6	=" "
+Tuesday1	=#S#
+Tuesday2	=#S#
+Tuesday3	=#S#
+Tuesday4	=#S#
+Tuesday5	=#F#
+Tuesday6	=#F#
+Tuesday7	=" "
+Tuesday8	=" "
+Tuesday9	=" "
 
 ; TIME
-Tuesdayt1	=830
-Tuesdayt2	=930
-Tuesdayt3	=1030
-Tuesdayt4	=1130
-Tuesdayt5	=1230
-Tuesdayt6	=1325
+Tuesdayt1	=930
+Tuesdayt2	=1020
+Tuesdayt3	=1120
+Tuesdayt4	=1240
+Tuesdayt5	=130
+Tuesdayt6	=230
+Tuesdayt7	=" "
+Tuesdayt8	=" "
+Tuesdayt9	=" "
 
 ; COLOR
-TuesdayColor1	=#AColor#
-TuesdayColor2	=#FColor#
-TuesdayColor3	=#TColor#
-TuesdayColor4	=#TColor#
-TuesdayColor5	=#TColor#
-TuesdayColor6	=#TColor#
+TuesdayColor1	=#SColor#
+TuesdayColor2	=#SColor#
+TuesdayColor3	=#SColor#
+TuesdayColor4	=#SColor#
+TuesdayColor5	=#FColor#
+TuesdayColor6	=#FColor#
+TuesdayColor7	=#TColor#
+TuesdayColor8	=#TColor#
+TuesdayColor9	=#TColor#
 
 
 ;  W E D N E S D A Y  ;
 ;---------------------;
 
 ; SUBJECTS
-Wednesday1		=#C#
-Wednesday2		=#A#
-Wednesday3		=#E#
-Wednesday4		=#B#
-Wednesday5		=#D#
-Wednesday6		=" "
+Wednesday1	=#B#
+Wednesday2	=#A#
+Wednesday3	=#C#
+Wednesday4	=#E#
+Wednesday5	=#A#
+Wednesday6	=#C#
+Wednesday7	=" "
+Wednesday8	=" "
+Wednesday9	=" "
 
 ; TIME
-Wednesdayt1		=830
-Wednesdayt2		=930
-Wednesdayt3		=1030
-Wednesdayt4		=1130
-Wednesdayt5		=1230
-Wednesdayt6		=1325
+Wednesdayt1	=930
+Wednesdayt2	=1020
+Wednesdayt3	=1120
+Wednesdayt4	=1240
+Wednesdayt5	=130
+Wednesdayt6	=230
+Wednesdayt7	=" "
+Wednesdayt8	=" "
+Wednesdayt9	=" "
 
 ; COLOR
-WednesdayColor1		=#CColor#
-WednesdayColor2		=#AColor#
-WednesdayColor3		=#EColor#
-WednesdayColor4		=#BColor#
-WednesdayColor5		=#DColor#
-WednesdayColor6		=#DColor#
+WednesdayColor1	=#BColor#
+WednesdayColor2	=#AColor#
+WednesdayColor3	=#CColor#
+WednesdayColor4	=#EColor#
+WednesdayColor5	=#AColor#
+WednesdayColor6	=#CColor#
+WednesdayColor7	=#DColor#
+WednesdayColor8	=#DColor#
+WednesdayColor9	=#DColor#
 
 
 ;   T H U R S D A Y   ;
 ;---------------------;
 
 ; SUBJECTS
-Thursday1		=#D#
-Thursday2		=#C#
-Thursday3		=#F#
-Thursday4		=#S#
-Thursday5		=#S#
-Thursday6		=" "
+Thursday1	=#B#
+Thursday2	=#B#
+Thursday3	=#D#
+Thursday4	=#E#
+Thursday5	=#E#
+Thursday6	=#D#
+Thursday7	=" "
+Thursday8	=" "
+Thursday9	=" "
 
 ; TIME
-Thursdayt1		=830
-Thursdayt2		=930
-Thursdayt3		=1030
-Thursdayt4		=1130
-Thursdayt5		=1230
-Thursdayt6		=1325
+Thursdayt1	=930
+Thursdayt2	=1020
+Thursdayt3	=1120
+Thursdayt4	=1240
+Thursdayt5	=130
+Thursdayt6	=230
+Thursdayt7	=" "
+Thursdayt8	=" "
+Thursdayt9	=" "
 
 ; COLOR
-ThursdayColor1		=#DColor#
-ThursdayColor2		=#CColor#
-ThursdayColor3		=#FColor#
-ThursdayColor4		=#SColor#
-ThursdayColor5		=#SColor#
-ThursdayColor6		=#AColor#
+ThursdayColor1	=#BColor#
+ThursdayColor2	=#BColor#
+ThursdayColor3	=#DColor#
+ThursdayColor4	=#EColor#
+ThursdayColor5	=#EColor#
+ThursdayColor6	=#DColor#
+ThursdayColor7	=#AColor#
+ThursdayColor8	=#AColor#
+ThursdayColor9	=#AColor#
 
 
 ;     F R I D A Y     ;
 ;---------------------;
 
 ; SUBJECTS
-Friday1		=#B#
-Friday2		=#A#
-Friday3		=#C#
-Friday4		=#D#
-Friday5		=#B#
-Friday6		=" "
+Friday1		=#T#
+Friday2		=#T#
+Friday3		=#T#
+Friday4		=#T#
+Friday5		=#A#
+Friday6		=#C#
+Friday7		=" "
+Friday8		=" "
+Friday9		=" "
 
 ; TIME
-Fridayt1	=800
-Fridayt2	=900
-Fridayt3	=1000
-Fridayt4	=1100
-Fridayt5	=1200
-Fridayt6	=1300
+Fridayt1	=930
+Fridayt2	=1015
+Fridayt3	=1120
+Fridayt4	=1155
+Fridayt5	=140
+Fridayt6	=225
+Fridayt7	=" "
+Fridayt8	=" "
+Fridayt9	=" "
 
 ; COLOR
-FridayColor1 	=#BColor#
-FridayColor2	=#AColor#
-FridayColor3	=#CColor#
-FridayColor4	=#DColor#
-FridayColor5	=#BColor#
-FridayColor6	=#BColor#
+FridayColor1 	=#TColor#
+FridayColor2	=#TColor#
+FridayColor3	=#TColor#
+FridayColor4	=#TColor#
+FridayColor5	=#AColor#
+FridayColor6	=#CColor#
+FridayColor7	=#BColor#
+FridayColor8	=#BColor#
+FridayColor9	=#BColor#
 
 
 ;   S A T U R D A Y   ;
 ;---------------------;
 
 ; SUBJECTS
-Saturday1		="Nothing to do :)"
-Saturday2		=" "
-Saturday3		=" "
-Saturday4		=" "
-Saturday5		=" "
-Saturday6		=" "
+Saturday1	="Nothing to do :)"
+Saturday2	=" "
+Saturday3	=" "
+Saturday4	=" "
+Saturday5	=" "
+Saturday6	=" "
+Saturday7	=" "
+Saturday8	=" "
+Saturday9	=" "
 
 ; TIME
-Saturdayt1		=|_|>
-Saturdayt2		=" "
-Saturdayt3		=" "
-Saturdayt4		=" "
-Saturdayt5		=" "
-Saturdayt6		=" "
+Saturdayt1	=|_|>
+Saturdayt2	=" "
+Saturdayt3	=" "
+Saturdayt4	=" "
+Saturdayt5	=" "
+Saturdayt6	=" "
+Saturdayt7	=" "
+Saturdayt8	=" "
+Saturdayt9	=" "
 
 ; COLOR
-SaturdayColor1		=#brekColor#
-SaturdayColor2		=#brekColor#
-SaturdayColor3		=#brekColor#
-SaturdayColor4		=#brekColor#
-SaturdayColor5		=#brekColor#
-SaturdayColor6		=#brekColor#
+SaturdayColor1	=#brekColor#
+SaturdayColor2	=#brekColor#
+SaturdayColor3	=#brekColor#
+SaturdayColor4	=#brekColor#
+SaturdayColor5	=#brekColor#
+SaturdayColor6	=#brekColor#
+SaturdayColor7	=#brekColor#
+SaturdayColor8	=#brekColor#
+SaturdayColor9	=#brekColor#
 
 
 ;     S U N D A Y     ;
@@ -225,22 +280,31 @@ Sunday3		=" "
 Sunday4		=" "
 Sunday5		=" "
 Sunday6		=" "
+Sunday7		=" "
+Sunday8		=" "
+Sunday9		=" "
 
 ; TIME
-Sundayt1		=|_|>
-Sundayt2		=" "
-Sundayt3		=" "
-Sundayt4		=" "
-Sundayt5		=" "
-Sundayt6		=" "
+Sundayt1	=|_|>
+Sundayt2	=" "
+Sundayt3	=" "
+Sundayt4	=" "
+Sundayt5	=" "
+Sundayt6	=" "
+Sundayt7	=" "
+Sundayt8	=" "
+Sundayt9	=" "
 
 ; COLOR
-SundayColor1		=#brekColor#
-SundayColor2		=#brekColor#
-SundayColor3		=#brekColor#
-SundayColor4		=#brekColor#
-SundayColor5		=#brekColor#
-SundayColor6		=#brekColor#
+SundayColor1	=#brekColor#
+SundayColor2	=#brekColor#
+SundayColor3	=#brekColor#
+SundayColor4	=#brekColor#
+SundayColor5	=#brekColor#
+SundayColor6	=#brekColor#
+SundayColor7	=#brekColor#
+SundayColor8	=#brekColor#
+SundayColor9	=#brekColor#
 
 //////////////////////////////////////////////////////////////
 
